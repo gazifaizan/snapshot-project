@@ -1,0 +1,58 @@
+.image-container {
+  
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 15px;
+    background-color: #7ed321;
+    padding: auto;
+}
+.flickr-image:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.searinp{
+  padding-left: 40%;
+  padding-top: 20px;
+  
+}
+button{
+  
+  -webkit-box-shadow:0 0 2px 1px #7ed32180;
+  -moz-box-shadow:0 0 2px 1px #7ed32180;
+  box-shadow: 0 0 2px 1px #7ed32180;
+  border: 1px solid #7ed321;
+  width: 90px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.butto{
+  padding-left: 40%;
+  margin-top: 20px;
+}
+
+button:hover{
+  cursor: pointer;
+  background: #62d3db;
+}
+.main{
+  width: 100%;
+  background-color: #7ed321;
+}
+.inp{
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+}
+h1{
+  margin: 0px;
+  text-align: center;
+  font-style:Georgia, serif;
+}
+h1:hover{
+  background: #d940ee;
+}
+body{
+  background-color: #7ed321;
+}
